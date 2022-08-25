@@ -2,7 +2,9 @@ import React from 'react';
 
 function Footer() {
     return (
-        <h5>Brice Veyna</h5>
+        <footer>
+            <h5>&copy; 2022 Brice Veyna</h5>
+        </footer>
     );
 }
 
