@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function About() {
+function About() {
     return (
         <div>
-            <h1>About Page</h1>
+            <h2>About Page</h2>
             <p>
                 Hello and welcome to my portfolio! My name is Brice Veyna. I'm originally from Visalia, California and am currently living close to home in the Tulare countryside. My career journey into the world of software systems and technologies is kind of a long and meandering one.
 
@@ -18,3 +18,5 @@ export default function About() {
         </div>
     );
 }
+
+export default About;
