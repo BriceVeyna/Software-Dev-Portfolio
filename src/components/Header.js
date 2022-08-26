@@ -2,8 +2,10 @@ import React from 'react';
 
 function Header() {
     return (
-        <header>
-            <h1>Portfolio - Brice Veyna</h1>
+        <header className='jumbotron jumbotron-fluid'>
+            <div className='container p-4'>
+                <h1 className='display-4'>Portfolio - Brice Veyna</h1>
+            </div>
         </header>
     );
 }
