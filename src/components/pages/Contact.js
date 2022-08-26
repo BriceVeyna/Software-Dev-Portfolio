@@ -45,39 +45,50 @@ function Contact() {
     };
 
     return (
-        <div>
-            <h2>Contact Page</h2>
-            <form className='form'>
-                <input
-                    value={userName}
-                    name='userName'
-                    onChange={handleInputChange}
-                    type='text'
-                    placeholder='Name'
-                />
-                <input
-                    value={email}
-                    name='email'
-                    onChange={handleInputChange}
-                    type='email'
-                    placeholder='email'
-                />
-                <input
-                    value={message}
-                    name='message'
-                    onChange={handleInputChange}
-                    type='text'
-                    placeholder='Message'
-                />
-                <button type='button' onClick={handleFormSubmit}>
-                    Submit
-                </button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className='error-text'>{errorMessage}</p>
-                </div>
-            )}
+        <div className='container'>
+            <h2>Contact Me</h2>
+            <div className='row'>
+                <form className='form col-6'>
+                    <div className='d-flex flex-column mb-2'>
+                        <label for='inputName'>Name:</label>
+                        <input
+                            id='inputName'
+                            value={userName}
+                            name='userName'
+                            onChange={handleInputChange}
+                            type='text'
+                        />
+                    </div>
+                    <div className='d-flex flex-column mb-2'>
+                        <label for='email'>Email address:</label>
+                        <input
+                            id='email'
+                            value={email}
+                            name='email'
+                            onChange={handleInputChange}
+                            type='email'
+                        />
+                    </div>
+                    <div className='d-flex flex-column mb-3'>
+                        <label for='message'>Message:</label>
+                        <textarea
+                            id='message'
+                            value={message}
+                            name='message'
+                            onChange={handleInputChange}
+                            type='text'
+                        />
+                    </div>
+                    {errorMessage && (
+                    <div>
+                        <p className='error-text'>{errorMessage}</p>
+                    </div>
+                    )}
+                    <button type='button' className='btn btn-primary' onClick={handleFormSubmit}>
+                        Submit
+                    </button>
+                </form>
+            </div>
         </div>
     );
 }
