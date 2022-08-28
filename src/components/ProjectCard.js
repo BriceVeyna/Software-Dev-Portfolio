@@ -6,8 +6,8 @@ function ProjectCard(props) {
             <div className='card'>
                 <img src={props.Project.image} alt={props.Project.projectName}></img>
                 <div className='card-body'>
-                    <a href={props.Project.deployedURL}>{props.Project.projectName}</a>
-                    <button><a href={props.Project.githubURL}>test</a></button>
+                    <a href={props.Project.deployedURL} className='h1'>{props.Project.projectName}</a>
+                    <a href={props.Project.githubURL} className='p-4'><img src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg' alt='github' height={50}></img></a>
                     <p>{props.Project.techStack}</p>
                 </div>
             </div>
