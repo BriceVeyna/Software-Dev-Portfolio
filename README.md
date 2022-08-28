@@ -18,7 +18,7 @@ This project uses React to create a portfolio of my software development related
 
 
 ## Usage
-
+Upon visiting my portfolio, you will see a short biography relating to my software development journey. The tabs at the top of the page can be used to view additional pages for my portfolio of projects, resume, and contact form. The portfolio page contains a sampling of my software development projects. By clicking the project name, you will be taken to the deployed application and by clicking the github icon, you will be taken to the respective project repository. The resume page contains an overview of my software development proficiencies and a link to download my full resume. The contact page contains a form to message me.
 
 ## Features
 
