@@ -18,7 +18,7 @@ const Projects = [
     {
         id: 3,
         projectName: 'Local Weather Forecast',
-        image: process.env.PUBLIC_URL + '',
+        image: process.env.PUBLIC_URL + '/assets/images/Local_Weather_Forecast.JPG',
         githubURL: 'https://github.com/BriceVeyna/Local-Weather-Forecast',
         deployedURL: 'https://briceveyna.github.io/Local-Weather-Forecast/',
         techStack: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather One Call API',
@@ -26,7 +26,7 @@ const Projects = [
     {
         id: 4,
         projectName: 'Code Quiz',
-        image: process.env.PUBLIC_URL + '',
+        image: process.env.PUBLIC_URL + '/assets/images/Coding_Quiz.JPG',
         githubURL: 'https://github.com/BriceVeyna/Code-Quiz',
         deployedURL: 'https://briceveyna.github.io/Code-Quiz/',
         techStack: 'HTML, CSS, JavaScript',
