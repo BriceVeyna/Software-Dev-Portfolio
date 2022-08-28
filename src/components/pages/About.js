@@ -12,11 +12,15 @@ const styles = {
     },
 };
 
+const images = {
+    image: process.env.PUBLIC_URL + '/assets/images/Portrait.png'
+}
+
 function About() {
     return (
         <div className='p-5 pt-0'>
             <h2 className='mb-4 text-center'>A Bit About Myself</h2>
-            <img src='./assets/images/Portrait.png' alt='Brice Veyna Portrait' style={styles.portrait}></img>
+            <img src={images.image} alt='Brice Veyna Portrait' style={styles.portrait}></img>
             <div style={styles.bio}>
                 <p>
                     Hello and welcome to my portfolio! My name is Brice Veyna. I'm originally from Visalia, California and am currently living close to home in the Tulare countryside. My career journey into the world of software systems and technologies is kind of a long and meandering one.
