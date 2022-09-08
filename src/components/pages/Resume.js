@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div>
+        <div className='px-5'>
             <h2>Resume Page</h2>
             <a href='/assets/Brice-Veyna-Resume.pdf' download>Download Resume</a>
             <h3>Front-end Proficiencies</h3>
