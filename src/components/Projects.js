@@ -1,6 +1,14 @@
 const Projects = [
     {
         id: 1,
+        projectName: 'Hireable Hippo Helper',
+        image: process.env.PUBLIC_URL + '/assets/images/Hireable_Hippo_Helper.JPG',
+        githubURL: 'https://github.com/espinbrandon49/Hireable-Hippo-Helper',
+        deployedURL: 'https://hireablehippohelper.herokuapp.com/',
+        techStack: 'CSS, JavaScript, jQuery, JSON, Bulma, React, ReCharts, Quill, Node, npm, Express, MongoDB, Mongoose, GraphQL, Apollo, JWT, Heroku',
+    },
+    {
+        id: 2,
         projectName: 'Family Memories',
         image: process.env.PUBLIC_URL + '/assets/images/Family_Memories.jpg',
         githubURL: 'https://github.com/BriceVeyna/Family-Memories',
@@ -8,7 +16,7 @@ const Projects = [
         techStack: 'CSS, Handlebars, JavaScript, jQuery, Bootstrap, Node, npm, Express, Insomnia, Heroku, MySQL, Sequelize, Google Drive, Socket.io',
     },
     {
-        id: 2,
+        id: 3,
         projectName: 'The Daily Trending',
         image: process.env.PUBLIC_URL + '/assets/images/Daily_trending.JPG',
         githubURL: 'https://github.com/qosole/daily-trending',
@@ -16,7 +24,7 @@ const Projects = [
         techStack: 'HTML, CSS, JavaScript, jQuery, Moment.js, Foundation, New York Times API, YouTube API, Reddit API, Spotify API',
     },
     {
-        id: 3,
+        id: 4,
         projectName: 'Local Weather Forecast',
         image: process.env.PUBLIC_URL + '/assets/images/Local_Weather_Forecast.JPG',
         githubURL: 'https://github.com/BriceVeyna/Local-Weather-Forecast',
@@ -24,7 +32,7 @@ const Projects = [
         techStack: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather One Call API',
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Code Quiz',
         image: process.env.PUBLIC_URL + '/assets/images/Coding_Quiz.JPG',
         githubURL: 'https://github.com/BriceVeyna/Code-Quiz',
@@ -32,7 +40,7 @@ const Projects = [
         techStack: 'HTML, CSS, JavaScript',
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'Landing Page',
         image: process.env.PUBLIC_URL + '/assets/images/Landing-Page.jpg',
         githubURL: 'https://github.com/BriceVeyna/Landing-Page',
@@ -40,7 +48,7 @@ const Projects = [
         techStack: 'HTML, CSS',
     },
     { 
-        id: 6,
+        id: 7,
         projectName: 'Vivaldi Fan Page',
         image: process.env.PUBLIC_URL + '/assets/images/Vivaldi.jpg',
         githubURL: 'https://github.com/BriceVeyna/Vivaldi-Fan-Page',
