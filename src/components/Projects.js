@@ -1,0 +1,60 @@
+const Projects = [
+    {
+        id: 1,
+        projectName: 'Hireable Hippo Helper',
+        image: process.env.PUBLIC_URL + '/assets/images/Hireable_Hippo_Helper.JPG',
+        githubURL: 'https://github.com/espinbrandon49/Hireable-Hippo-Helper',
+        deployedURL: 'https://hireablehippohelper.herokuapp.com/',
+        techStack: 'CSS, JavaScript, jQuery, JSON, Bulma, React, ReCharts, Quill, Node, npm, Express, MongoDB, Mongoose, GraphQL, Apollo, JWT, Heroku',
+    },
+    {
+        id: 2,
+        projectName: 'Family Memories',
+        image: process.env.PUBLIC_URL + '/assets/images/Family_Memories.jpg',
+        githubURL: 'https://github.com/BriceVeyna/Family-Memories',
+        deployedURL: 'https://lit-cliffs-32521.herokuapp.com',
+        techStack: 'CSS, Handlebars, JavaScript, jQuery, Bootstrap, Node, npm, Express, Insomnia, Heroku, MySQL, Sequelize, Google Drive, Socket.io',
+    },
+    {
+        id: 3,
+        projectName: 'The Daily Trending',
+        image: process.env.PUBLIC_URL + '/assets/images/Daily_trending.JPG',
+        githubURL: 'https://github.com/qosole/daily-trending',
+        deployedURL: 'https://qosole.github.io/daily-trending/',
+        techStack: 'HTML, CSS, JavaScript, jQuery, Moment.js, Foundation, New York Times API, YouTube API, Reddit API, Spotify API',
+    },
+    {
+        id: 4,
+        projectName: 'Local Weather Forecast',
+        image: process.env.PUBLIC_URL + '/assets/images/Local_Weather_Forecast.JPG',
+        githubURL: 'https://github.com/BriceVeyna/Local-Weather-Forecast',
+        deployedURL: 'https://briceveyna.github.io/Local-Weather-Forecast/',
+        techStack: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather One Call API',
+    },
+    {
+        id: 5,
+        projectName: 'Code Quiz',
+        image: process.env.PUBLIC_URL + '/assets/images/Coding_Quiz.JPG',
+        githubURL: 'https://github.com/BriceVeyna/Code-Quiz',
+        deployedURL: 'https://briceveyna.github.io/Code-Quiz/',
+        techStack: 'HTML, CSS, JavaScript',
+    },
+    {
+        id: 6,
+        projectName: 'Landing Page',
+        image: process.env.PUBLIC_URL + '/assets/images/Landing-Page.jpg',
+        githubURL: 'https://github.com/BriceVeyna/Landing-Page',
+        deployedURL: 'https://briceveyna.github.io/Landing-Page/',
+        techStack: 'HTML, CSS',
+    },
+    { 
+        id: 7,
+        projectName: 'Vivaldi Fan Page',
+        image: process.env.PUBLIC_URL + '/assets/images/Vivaldi.jpg',
+        githubURL: 'https://github.com/BriceVeyna/Vivaldi-Fan-Page',
+        deployedURL: 'https://briceveyna.github.io/Vivaldi-Fan-Page/',
+        techStack: 'HTML, CSS',
+    },
+]
+
+export default Projects;
