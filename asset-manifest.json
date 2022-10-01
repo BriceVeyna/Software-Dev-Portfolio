@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0-React/static/css/main.84487ea8.css",
-    "main.js": "/Portfolio-2.0-React/static/js/main.2b7e396d.js",
-    "static/media/Brice-Veyna-Resume.pdf": "/Portfolio-2.0-React/static/media/Brice-Veyna-Resume.8898507cddc9f63974c4.pdf",
-    "index.html": "/Portfolio-2.0-React/index.html",
-    "main.84487ea8.css.map": "/Portfolio-2.0-React/static/css/main.84487ea8.css.map",
-    "main.2b7e396d.js.map": "/Portfolio-2.0-React/static/js/main.2b7e396d.js.map"
+    "main.css": "/Software-Dev-Portfolio/static/css/main.84487ea8.css",
+    "main.js": "/Software-Dev-Portfolio/static/js/main.b2c1ec8d.js",
+    "static/media/Brice-Veyna-Resume.pdf": "/Software-Dev-Portfolio/static/media/Brice-Veyna-Resume.8898507cddc9f63974c4.pdf",
+    "index.html": "/Software-Dev-Portfolio/index.html",
+    "main.84487ea8.css.map": "/Software-Dev-Portfolio/static/css/main.84487ea8.css.map",
+    "main.b2c1ec8d.js.map": "/Software-Dev-Portfolio/static/js/main.b2c1ec8d.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.2b7e396d.js"
+    "static/js/main.b2c1ec8d.js"
   ]
 }
