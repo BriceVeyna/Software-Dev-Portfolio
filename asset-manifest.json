@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/Software-Dev-Portfolio/static/css/main.84487ea8.css",
-    "main.js": "/Software-Dev-Portfolio/static/js/main.b2c1ec8d.js",
-    "static/media/Brice-Veyna-Resume.pdf": "/Software-Dev-Portfolio/static/media/Brice-Veyna-Resume.8898507cddc9f63974c4.pdf",
+    "main.css": "/Software-Dev-Portfolio/static/css/main.9bd7a35e.css",
+    "main.js": "/Software-Dev-Portfolio/static/js/main.4b5e4a31.js",
     "index.html": "/Software-Dev-Portfolio/index.html",
-    "main.84487ea8.css.map": "/Software-Dev-Portfolio/static/css/main.84487ea8.css.map",
-    "main.b2c1ec8d.js.map": "/Software-Dev-Portfolio/static/js/main.b2c1ec8d.js.map"
+    "main.9bd7a35e.css.map": "/Software-Dev-Portfolio/static/css/main.9bd7a35e.css.map",
+    "main.4b5e4a31.js.map": "/Software-Dev-Portfolio/static/js/main.4b5e4a31.js.map"
   },
   "entrypoints": [
-    "static/css/main.84487ea8.css",
-    "static/js/main.b2c1ec8d.js"
+    "static/css/main.9bd7a35e.css",
+    "static/js/main.4b5e4a31.js"
   ]
 }
