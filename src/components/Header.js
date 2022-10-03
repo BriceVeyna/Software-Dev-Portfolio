@@ -33,7 +33,7 @@ function Header() {
                     <img src={images.banner} alt='Brice Veyna Portrait' style={styles.banner}></img>
                 </div>
             </div>
-            <div className='container p-4' style={styles.header}>
+            <div className='container p-5' style={styles.header}>
                 <h1 className='display-4'>Software Dev Portfolio</h1>
                 <h2 className='display-5'>Brice Veyna</h2>
             </div>

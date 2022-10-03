@@ -45,12 +45,16 @@ function Contact() {
     };
 
     return (
-        <div className='container'>
-            <h2>Contact Me</h2>
-            <div className='row'>
-                <form className='form col-6'>
+        <div className='container mb-5'>
+            <div className='text-center'>
+                <h1>Contact Me</h1>
+                <h5>If you have any questions, or would like to know more about my work, feel free to send me a message.</h5>
+                <h5>Email: briceveyna@gmail.com</h5>
+            </div>
+            <div className='row justify-content-center mt-4'>
+                <form className='form col-8'>
                     <div className='d-flex flex-column mb-2'>
-                        <label for='inputName'>Name:</label>
+                        <label htmlFor='inputName'>Name*</label>
                         <input
                             id='inputName'
                             value={userName}
@@ -60,7 +64,7 @@ function Contact() {
                         />
                     </div>
                     <div className='d-flex flex-column mb-2'>
-                        <label for='email'>Email address:</label>
+                        <label htmlFor='email'>Email Address*</label>
                         <input
                             id='email'
                             value={email}
@@ -70,7 +74,7 @@ function Contact() {
                         />
                     </div>
                     <div className='d-flex flex-column mb-3'>
-                        <label for='message'>Message:</label>
+                        <label htmlFor='message'>Message*</label>
                         <textarea
                             id='message'
                             value={message}
